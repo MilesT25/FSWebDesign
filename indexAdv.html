@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Advanced Search</title>
+</head>
+<body>
+<form action="https://www.google.com/search">
+    <h1>Advanced Search</h1>
+    <div class="link-bar" style="display:flex; margin-left:0px">
+        <a class="link-items" href="file:///Users/milesthomas/IdeaProjects/FSWebDesign/indexImg.html" target="_top">Image Search</a>
+        &nbsp; &nbsp; &nbsp;
+        <a class="link-items" href="file:///Users/milesthomas/IdeaProjects/FSWebDesign/index.html" target="_top">General Search</a>
+    </div>
+    <h3>Find pages with...</h3>
+    <div class="Adv">
+        <div class="column">
+            <div class="row">
+                <label for="first">all these words:</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="text" id="first" name="as_q" />
+            </div>
+                <br>
+            <div class="row">
+                <label for="second">this exact word or phrase:</label>
+                &nbsp; &nbsp;
+                <input type="text" id="second" name="as_epq" />
+            </div>
+                <br>
+            <div class="row">
+                <label for="third">any of these words:</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="text" id="third" name="as_oq" />
+            </div>
+                <br>
+            <div class="row">
+                <label for="fourth">none of these words:</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="text" id="fourth" name="as_eq" />
+            </div>
+            <button class="buttons" type="submit" style="margin-left: 209px;">Advanced Search</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>
